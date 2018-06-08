@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Unite Menu</string>
+    <string name="check_balance">Проверить баланс</string>
+    <string name="cancel">отмена</string>
+    <string name="ok">да</string>
+    <string name="dialog_message">Перед активацией рекомендуется проверить баланс. Активировать сейчас %s за %s?</string>
+    <string name="dialog_title">Внимание</string>
+    <string name="minutes">Минуты</string>
+    <string name="minutes20">20 минут\n10 лей</string>
+    <string name="minutes30">30 минут\n15 лей</string>
+    <string name="minutes60">60 минут\n25 лей</string>
+    <string name="minutes100">100 минут\n40 лей</string>
+    <string name="sms">SMS</string>
+    <string name="sms25">25 SMS\n10 лей</string>
+    <string name="sms60">60 SMS\n20 лей</string>
+    <string name="sms100">100 SMS\n25 лей</string>
+    <string name="sms_sent">SMS отправлено, ждите ответа!</string>
+    <string name="generic_failure">Что-то пошло не так, и нет способа сказать, что, почему и как.</string>
+    <string name="no_service">Телефон просто не ловит сотовой связи. Вероятно, вы находитесь в середине какого-то помещения, под землей, в космосе, или далеко от любой башни сотового оператора.</string>
+    <string name="null_pdu">Что-то пошло не так при компоновке или передаче СМС</string>
+    <string name="radio_off">Не отпралвено, потому что модуль связи был отключен или находится в режиме самолета</string>
+    <string name="sms_delivered">SMS доставлено</string>
+    <string name="sms_failed_delivered">SMS не удалось доставить</string>
+</resources>

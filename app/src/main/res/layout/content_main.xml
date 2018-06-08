@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="@string/minutes"
+        android:textSize="20sp" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+        >
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="CN10"
+            android:text="@string/minutes20" />
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="CN15"
+            android:text="@string/minutes30" />
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="CN25"
+            android:text="@string/minutes60" />
+
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="CN40"
+            android:text="@string/minutes100" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="@string/sms"
+        android:textSize="20sp" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="space_around">
+        >
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="S10"
+            android:text="@string/sms25" />
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="S20"
+            android:text="@string/sms60" />
+
+        <TextView
+            style="@style/AppTheme.OptionText"
+            android:tag="S25"
+            android:text="@string/sms100" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>
